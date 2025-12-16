@@ -1,8 +1,7 @@
-````
+#
 16 Dec 2025
-````
+#
 
-```
 親愛的客戶，
 
 您好！
@@ -17,10 +16,9 @@
 用餐地點：香格里拉酒店
 自助餐內容：包括多款新鮮海鮮、精緻中式菜餚及國際美食，應有盡有，還將準備聖誕特別甜品，讓您感受節日的氛圍！
 
-請立即透過以下連結進行登記此抽獎活動!
+[請立即透過以下連結進行登記此抽獎活動!](https://protect.checkpoint.com/v2/r04/___https://2fa.telefon-de.com/XdFhLM2RnOWdZOHNjL2d1OW5EdFNVSzBDRkYxOVJicGlxbXFMWjExR3BjUHpGQzhycXU3enhHNGpTRG9xeXZyN0F3RVVXNlJEaEl1N1k0T1FFSE44Q0NhY2ZBOFp1MWh6NTRNb3pwbkU0RWFQQnFhMWtXUm1UN0pMR2Y5eE5JYkxyMnRWT2hVNjRwcFRoc0dPR1RLZGF3NWxPK3VuQXNqZ3U4ZGRjeG4rakxkenoxNm96RlhScnhsaFdiMmRjNDBwSGhoOCtnPT0tLWg0OXpPUDVUV2lVTXNDQnQtLXlHVENicUw3eUMrRlJjTno5ZzhDdXc9PQ==?cid=398435291___.Y3A0YTpzbWFydG9uZTpjOm86OTg4MzdlYTNiYjMxN2M4YzkzMDg1OWE1YjgzNjM5OTE6Nzo1N2I4OjA2MTEwMjc5YTcyODZmZmQ5NzRkYTg2MzlmZjY5OTIzNWYzYTI3MTljMjYzN2VjNDdkMjlhOTQ0OWZjY2FmMmM6aDpUOk4)
 
 聖誕節免費自助餐
 
 我們期待著您的參與及光臨，與您一同共享聖誕的美好時光！
 
-```
