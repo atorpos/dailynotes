@@ -1,44 +1,9 @@
-Phase 1: Scoping and Stakeholder Alignment
-Before diving into databases and cloud environments, establish the boundaries and get the right people involved.
+Phase 1: Define scope and involve key stakeholders to set boundaries before engaging with databases and cloud environments. Draft a standard PIA questionnaire for system owners to complete. 
 
-Define the Scope: Explicitly list which applications, microservices, and environments (e.g., production, staging) are included in this initial PIA.
+Phase 2: Conduct a technical data inventory, map data flows, and identify undocumented or legacy data outside governance.
 
-Form a Cross-Functional Team: Assign clear owners. This typically requires input from Engineering (to identify the data stores), Security (to assess vulnerabilities), and Legal/Compliance (to define regulatory requirements).
+Phase 3: Categorize data into tiers, assess current controls, and identify compliance gaps.
 
-Establish the Baseline Questionnaire: Draft the standard PIA template that system owners will need to complete, focusing on data types, sources, and access.
+Phase 4: Develop governance policies, standardize access, and plan data consolidation based on mapping.
 
-Phase 2: Data Discovery and System Mapping
-This is the technical heavy lifting required to understand exactly what data exists and where it lives.
-
-Execute Data Inventory: Audit all data locations across the infrastructure. This includes relational databases, object storage, caching layers, and external third-party integrations.
-
-Map Data Flows: Document how data enters the system, moves between internal services via APIs or message brokers, and where it ultimately rests.
-
-Identify Orphaned/Shadow Data: Actively scan for undocumented databases, legacy systems, or raw data dumps that are sitting outside standard governance protocols.
-
-Phase 3: Classification and Risk Assessment
-Once you know where the data is, you must categorize it to govern it appropriately.
-
-Define Data Tiers: Establish a clear data classification matrix (e.g., Public, Internal, Confidential, Highly Restricted/PII).
-
-Evaluate Current Controls: Assess the existing storage systems against the new classifications. Are Highly Restricted data stores properly encrypted at rest and in transit? Who has access?
-
-Identify Compliance Gaps: Cross-reference current practices with required retention and disposal regulations. Highlight areas where data is being held indefinitely without a business justification.
-
-Phase 4: Framework Definition and Consolidation Planning
-Use the findings from the PIA to build the actual governance framework.
-
-Draft Retention and Disposal Policies: Create exact timelines for data lifecycle management, including automated archival strategies and hard-deletion protocols.
-
-Standardize Access Controls: Implement a unified approach to access, transitioning toward Role-Based Access Control (RBAC) or Attribute-Based Access Control (ABAC) across all data systems.
-
-Design the Consolidation Architecture: Based on the data mapping, identify redundant data silos that can be merged into a centralized, governed data warehouse or data lake.
-
-Phase 5: Implementation and Automation
-A governance framework is only effective if it is enforced consistently.
-
-Automate Enforcement: Integrate data governance checks directly into the deployment lifecycle. For example, configure CI/CD pipelines to require security and privacy sign-offs for architectural changes involving data models.
-
-Implement Automated Pruning: Set up scheduled jobs or lifecycle rules on cloud storage to automatically delete or archive data that has passed its retention period.
-
-Schedule Recurring Reviews: A PIA is not a one-time event. Establish a cadence (e.g., annually or upon major architectural changes) to revisit the assessment.
+Phase 5: Automate governance enforcement through CI/CD, automate data pruning, and schedule regular reviews.
